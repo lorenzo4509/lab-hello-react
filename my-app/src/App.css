@@ -1,0 +1,113 @@
+.p1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: stretch;
+}
+
+.p1 img {
+  width: 100px; /* Tamaño deseado para las imágenes */
+  height: 100px; /* Tamaño deseado para las imágenes */
+}
+
+.p2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: stretch;
+  background-color: white;
+}
+
+.p2 img {
+  width: 100px; /* Tamaño deseado para las imágenes */
+  height: 100px; /* Tamaño deseado para las imágenes */
+}
+
+.p3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: stretch;
+}
+
+.p3 img {
+  width: 100px; /* Tamaño deseado para las imágenes */
+  height: 100px; /* Tamaño deseado para las imágenes */
+}
+
+.p4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: stretch;
+}
+
+.p4 img {
+  width: 100px; /* Tamaño deseado para las imágenes */
+  height: 100px; /* Tamaño deseado para las imágenes */
+}
+
+.App {
+  text-align: center;
+  background-color: #1a2b54;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #141e51;
+}
+
+h1 {
+  color: white;
+  font-size: 200%;
+  font-style: oblique;
+  text-align: left;
+}
+
+.l1 {
+  color: white;
+  text-align: left;
+}
+
+.l5 {
+  background-color: white;
+  color: darkblue;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
